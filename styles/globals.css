@@ -38,4 +38,32 @@ a {
   font-size: 3rem;
   width: 90%;
   align-self: flex-start;
+  margin-bottom: 2rem;
+}
+
+.typewritterString {
+  background: linear-gradient(to right, #BC1A05, #210303);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description1 {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: grey;
+  margin-bottom: 1rem;
+  align-self: flex-start;
+}
+
+.button1 {
+  background-color: #1d1d1d;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
 }

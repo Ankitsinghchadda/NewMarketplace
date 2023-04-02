@@ -3,25 +3,59 @@
   width: 100vw;
   min-height: calc(100vh - 6rem);
   position: relative;
-  background-color: #1d1d1d;
+  /* background-color: #1d1d1d; */
 }
 
 
 .home_main {
-  width: 70%;
-  min-height: 80vh;
+  width: 80%;
+  min-height: 90vh;
   margin: 0 auto;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.home_content {
+.home_content,
+.about_content {
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.home_buttons {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.home_buttons>button {
+  margin-right: 4rem;
+}
+
+.videoContainer {
+  width: 80%;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.about_main {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.crousel_main {
+  width: 25vw;
+  height: 70vh;
 }
